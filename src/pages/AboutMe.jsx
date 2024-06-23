@@ -1,4 +1,4 @@
-import { Box, Text, Switch, VStack, Heading } from "@chakra-ui/react";
+import { Box, Text, Switch, VStack, Heading, Flex, Spacer } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 
 const AboutMe = () => {

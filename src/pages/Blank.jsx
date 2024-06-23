@@ -1,9 +1,13 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, VStack, Heading, Flex, Spacer } from "@chakra-ui/react";
+import AboutMe from "./AboutMe.jsx";
 
 const Blank = () => {
   return (
     <Box p={4}>
-      <Text fontSize="2xl">This is a blank page.</Text>
+      <VStack spacing={8} align="start">
+        <Heading as="h1" size="2xl">Welcome to My Portfolio</Heading>
+        <AboutMe />
+      </VStack>
     </Box>
   );
 };
